@@ -1,0 +1,42 @@
+.root {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  &:hover {
+    background-color: #4361ee;
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 10px;
+    box-shadow: rgba(73, 51, 99, 0.15) 0px 13px 27px -5px, rgba(196, 6, 69, 0.3) 0px 8px 16px -8px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+.adminButton {
+  background-color: #ff6f3c;
+  color: white; /* Цвет текста на кнопке */
+}

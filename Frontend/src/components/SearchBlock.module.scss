@@ -1,0 +1,19 @@
+
+.SearchBlock {
+  margin: 30px -30px;
+
+  :global {
+    .cm-s-easymde {
+      border: 0;
+      font-size: 22px;
+    }
+    .editor-toolbar {
+      border: 0;
+      background-color: rgb(0 0 0 / 2%);
+      
+    }
+    
+  margin: 15px 0;
+  }
+
+}
